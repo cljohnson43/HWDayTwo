@@ -4,7 +4,13 @@
 
 1. **What is the difference in a hash map versus a hash table?**
 
-TODO
+The following are the differences between a `HashMap` and `Hashtable`:
+
+    * A `HashMap` is not thread-safe whereas a `Hashtable` is thread-safe
+    * The `HashMap` allows a null key and null values, while `Hashtable` doesn't allow either
+    * `HashMap` has better performance because it is non-synchronized while the `Hashtable` is synchronized
+
+Referenced in this answer: [What is the Difference Between HashMap and Hashtable](https://javarevisited.blogspot.com/2010/10/difference-between-hashmap-and.html)
 
 2. **Why should you generally override the equals and hashCode methods?**
 
@@ -26,7 +32,7 @@ and prevents object creation logic from being repeated in multiple places throug
 
 4. **How does Java Garbage Collection Work?**
 
-TODO
+In Java garbage collection works by 
 
 5. **What is the difference in a HashMap vs a Hashtable?**
 

@@ -12,6 +12,8 @@ public class ProblemTwo {
     }
 
     public boolean checkPalindrome(String word){
+        if (word == null) { return false; }
+        
         String lowerWord = word.toLowerCase();
 
         int len = lowerWord.length();

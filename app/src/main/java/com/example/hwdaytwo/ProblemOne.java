@@ -17,11 +17,17 @@ public class ProblemOne {
     private String tag = "ProblemOne";
 
     public void findDuplicates(List<String> strings){
+        if (strings == null ) { return; }
+
         Collections.sort(strings);
 
         String last = strings.get(0).toLowerCase();
         for (int i = 1; i < strings.size(); i++) {
-            String element = strings.get(i).toLowerCase();
+            String element = strings.get(i);
+
+            if (element == null) { continue; }
+
+            element = element.toLowerCase();
 
             if (last.equals(element)) {
                 Log.d(this.getTag(), "findDuplicates: " + last + " is a duplicate");
