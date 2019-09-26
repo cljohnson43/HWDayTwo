@@ -70,24 +70,21 @@ Referenced in this answer: [Learning the Difference Between Comparable and Compa
 
 ## Coding Problems
 
-1. ### Description
-Create a function to print the duplicates in a list of strings
-public void findDuplicates(List<String> strings){};
+1. Create a function to print the duplicates in a list of strings
+`public void findDuplicates(List<String> strings){};`
 ### Method Used
 TODO
 ### Logged Image of Solution
 TODO
 
-1. ### Description
-Create function to check if the string is a palindrome without using string.reverse() method
-public boolean checkPalindrome(String word){};
+2. Create function to check if the string is a palindrome without using `String.reverse()` method
+`public boolean checkPalindrome(String word){};`
 ### Method Used
 TODO
 ### Logged Image of Solution
 TODO
 
-3. ### Description
-Create a function that will print:
+3. Create a function that will print:
 "fizz" is the number is divisible by 3
 "buzz" is the number is divisible by 5
 "fizzbuzz" is the number is divisible by both
@@ -96,21 +93,21 @@ TODO
 ### Logged Image of Solution
 TODO
 
-4. ### Description
-Create a function to check if the two strings are Anagrams: Eg COAT and TACO would be anagrams
-public boolean checkAnagrams(String word1, String word2){};
+4. Create a function to check if the two strings are Anagrams: Eg COAT and TACO would be anagrams
+`public boolean checkAnagrams(String word1, String word2){};`
 ### Method Used
 TODO
 ### Logged Image of Solution
 TODO
 
-5. ### Description
-Print a multiplication table from 1 to 10 using multidimensional array
+5. Print a multiplication table from 1 to 10 using multidimensional array
 Output
-1 2 3 4 5 6 7 8 9 10
+
+`1 2 3 4 5 6 7 8 9 10
 2 4 6 8 10 12 14 16 18 20
 ...
-public void printTables(){};
+public void printTables(){};`
+
 ### Method Used
 TODO
 ### Logged Image of Solution
