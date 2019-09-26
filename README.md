@@ -32,7 +32,15 @@ and prevents object creation logic from being repeated in multiple places throug
 
 4. **How does Java Garbage Collection Work?**
 
-In Java garbage collection works by 
+In Java there are garbage collectors, GC, on many different JVMs. In general the JVM will initiate a
+collection when it determines that more unallocated memory on the heap is needed. The first step of the
+collection process is to identify and mark the objects that are eligible to be collected. The GC then
+deletes marked objects. The GC may then compact the heap to improve memory allocation performance.
+
+An object is eligible to be collected if it is no longer referenced.
+
+Referenced in this answer: [Garbage Collection Basics](https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html)
+ and [What is Java Garbage Collection? How It Works, Best Practices, Tutorials, and More](https://stackify.com/what-is-java-garbage-collection/)
 
 5. **What is the difference in a HashMap vs a Hashtable?**
 
