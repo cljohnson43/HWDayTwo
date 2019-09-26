@@ -31,6 +31,7 @@ TODO
 5. **What is the difference in a HashMap vs a Hashtable?**
 
 The following are the differences between a `HashMap` and `Hashtable`:
+
     * A `HashMap` is not thread-safe whereas a `Hashtable` is thread-safe
     * The `HashMap` allows a null key and null values, while `Hashtable` doesn't allow either
     * `HashMap` has better performance because it is non-synchronized while the `Hashtable` is synchronized
@@ -46,6 +47,7 @@ the collection elements.
 7. **What is the difference in a ArrayList and the List?**
 
 The following are the differences between an `ArrayList` and a `List`:
+
     * A `List` is an interface; whereas, an `ArrayList` is a class
     * A `List` extends the `Collection` interface, while an `ArrayList` extends the `AbstractList` class
     * A `List` is used to create a sequential collection of objects, while an `ArrayList` is used to
@@ -68,8 +70,7 @@ Referenced in this answer: [Learning the Difference Between Comparable and Compa
 
 ## Coding Problems
 
-1.
-### Description
+1. ### Description
 Create a function to print the duplicates in a list of strings
 public void findDuplicates(List<String> strings){};
 ### Method Used
@@ -77,8 +78,7 @@ TODO
 ### Logged Image of Solution
 TODO
 
-2.
-### Description
+1. ### Description
 Create function to check if the string is a palindrome without using string.reverse() method
 public boolean checkPalindrome(String word){};
 ### Method Used
@@ -86,8 +86,7 @@ TODO
 ### Logged Image of Solution
 TODO
 
-3.
-### Description
+3. ### Description
 Create a function that will print:
 "fizz" is the number is divisible by 3
 "buzz" is the number is divisible by 5
@@ -97,8 +96,7 @@ TODO
 ### Logged Image of Solution
 TODO
 
-4.
-### Description
+4. ### Description
 Create a function to check if the two strings are Anagrams: Eg COAT and TACO would be anagrams
 public boolean checkAnagrams(String word1, String word2){};
 ### Method Used
@@ -106,8 +104,7 @@ TODO
 ### Logged Image of Solution
 TODO
 
-5.
-### Description
+5. ### Description
 Print a multiplication table from 1 to 10 using multidimensional array
 Output
 1 2 3 4 5 6 7 8 9 10
