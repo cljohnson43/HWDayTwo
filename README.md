@@ -78,8 +78,12 @@ Referenced in this answer: [Learning the Difference Between Comparable and Compa
 `public void findDuplicates(List<String> strings){};`
 
 ### Method Used
-TODO
+
+For this problem I sorted the list argument, then I iterated through the list comparing the lower case
+of the current list element to the lower case of the last list string.
+
 ### Logged Image of Solution
+
 ![Problem 1 screenshot](/app/src/main/res/img/ProblemOneConsole.png)
 
 
@@ -88,17 +92,30 @@ TODO
 `public boolean checkPalindrome(String word){};`
 
 ### Method Used
-TODO
+
+For this problem I created a lower case string from the argument string, then I iterated through the
+characters of this string and compared the character with its corresponding character determined by
+the index of the two characters; e.g. the first and last are corresponding characters, the second and
+second-to-last are corresponding characters, etc.
+
 ### Logged Image of Solution
+
 ![Problem 2 screenshot](/app/src/main/res/img/ProblemTwoConsole.png)
 
 3. Create a function that will print:
 "fizz" is the number is divisible by 3
 "buzz" is the number is divisible by 5
 "fizzbuzz" is the number is divisible by both
+
 ### Method Used
-TODO
+
+For this problem I checked to see if the argument int is 0 and therefore divisible by both 3 and 5, then I
+checked to see if the argument int is divisible by both 5 and 3, then I checked for divisibility by
+5 and 3 individually. In all the above cases the method returns if one of the cases is true; therefore,
+if none of the above cases return, then the arg is not divisible by 3, 5, or both.
+
 ### Logged Image of Solution
+
 ![Problem 3 screenshot](/app/src/main/res/img/ProblemThreeConsole.png)
 
 4. Create a function to check if the two strings are Anagrams: Eg COAT and TACO would be anagrams
@@ -106,8 +123,12 @@ TODO
 `public boolean checkAnagrams(String word1, String word2){};`
 
 ### Method Used
-TODO
+
+For this problem I created sorted and lowercase character arrays for each of the arguments, then I
+compared the characters from each array against the character at the same position in the opposing array.
+
 ### Logged Image of Solution
+
 ![Problem 4 screenshot](/app/src/main/res/img/ProblemFourConsole.png)
 
 5. Print a multiplication table from 1 to 10 using multidimensional array
@@ -122,7 +143,11 @@ Output
 public void printTables(){};`
 
 ### Method Used
-TODO
+
+For this problem I created a 2D array and initialized it to have the first row go from 1 to 10 sequentially,
+then I multiplied the nth row by the ith column of the first row.
+
 ### Logged Image of Solution
+
 ![Problem 5 screenshot](/app/src/main/res/img/ProblemFiveConsole.png)
 
