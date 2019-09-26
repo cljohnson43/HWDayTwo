@@ -42,7 +42,10 @@ Referenced in this answer: [What is the Difference Between HashMap and Hashtable
 
 A `SparseArray` is a java class that extends `Object` and implements the `Cloneable` interface. It is
 a collection that maps integers to objects. The `SparseArray` also allows for gaps in the indices of
-the collection elements.
+the collection elements. It is more memory efficient than a `HashMap` but is slower. It is also only
+available on an Android runtime.
+
+Referenced in this answer: [SparseArray](https://developer.android.com/reference/android/util/SparseArray.html)
 
 7. **What is the difference in a ArrayList and the List?**
 
@@ -71,18 +74,23 @@ Referenced in this answer: [Learning the Difference Between Comparable and Compa
 ## Coding Problems
 
 1. Create a function to print the duplicates in a list of strings
+
 `public void findDuplicates(List<String> strings){};`
+
 ### Method Used
 TODO
 ### Logged Image of Solution
-TODO
+![Problem 1 screenshot](/app/src/main/res/img/ProblemOneConsole.png)
+
 
 2. Create function to check if the string is a palindrome without using `String.reverse()` method
+
 `public boolean checkPalindrome(String word){};`
+
 ### Method Used
 TODO
 ### Logged Image of Solution
-TODO
+![Problem 2 screenshot](/app/src/main/res/img/ProblemTwoConsole.png)
 
 3. Create a function that will print:
 "fizz" is the number is divisible by 3
@@ -91,25 +99,30 @@ TODO
 ### Method Used
 TODO
 ### Logged Image of Solution
-TODO
+![Problem 3 screenshot](/app/src/main/res/img/ProblemThreeConsole.png)
 
 4. Create a function to check if the two strings are Anagrams: Eg COAT and TACO would be anagrams
+
 `public boolean checkAnagrams(String word1, String word2){};`
+
 ### Method Used
 TODO
 ### Logged Image of Solution
-TODO
+![Problem 4 screenshot](/app/src/main/res/img/ProblemFourConsole.png)
 
 5. Print a multiplication table from 1 to 10 using multidimensional array
 Output
 
 `1 2 3 4 5 6 7 8 9 10
+
 2 4 6 8 10 12 14 16 18 20
+
 ...
+
 public void printTables(){};`
 
 ### Method Used
 TODO
 ### Logged Image of Solution
-TODO
+![Problem 5 screenshot](/app/src/main/res/img/ProblemFiveConsole.png)
 
